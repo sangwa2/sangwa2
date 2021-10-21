@@ -1,0 +1,39 @@
+The first database:
+-----------------------
+
+=>account
+=>account_category
+=> child
+=>g_all_tables
+=>g_properties
+=>g_tuple_properties
+=>g_unit_defaults
+=>parent
+=>profile
+=>profile
+=>relationship_count
+=>relationships
+=>structure
+=>tuple
+=>unit
+
+SECOND DABATASE
+----------------
+=>F_end_html_code
+=>F_end_form_template
+=>F_end_layout
+=>F_end_form
+=>query_details
+=>query
+=>code_place
+=>F_end_datalist_template
+=>F_end_datalist
+=>F_end_js_category
+=>F_end_css_category
+=>F_end_js_code
+=>F_end_css
+=>F_end_class_attrib
+=>F_end_html_code_line
+=>F_end_layout_type
+=>g_unit_defaults
+=>tuple_settings

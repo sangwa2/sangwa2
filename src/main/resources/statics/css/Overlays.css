@@ -1,0 +1,170 @@
+.delete_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.1;
+  display: none; }
+
+.delete_dialog {
+  width: 30%;
+  left: 30%;
+  top: 5%;
+  position: absolute;
+  background-color: #1a58a0;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 10px;
+  display: none; }
+  .delete_dialog .delete_dialog_title {
+    color: #fff;
+    /*background-color: #5592da;*/
+    height: 50px;
+    border-top-radius: 10px; }
+  .delete_dialog .del_dialog_btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center; }
+    .delete_dialog .del_dialog_btns .del_no {
+      background-color: #ff011b;
+      color: #fff; }
+    .delete_dialog .del_dialog_btns .del_yes {
+      background-color: #3ca322;
+      color: #fff; }
+  .delete_dialog .del_dialog_btns:hover {
+    cursor: pointer; }
+  .delete_dialog .lone_close {
+    border-radius: 10px; }
+
+.check_load {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #1dc3da;
+  /*opacity: 0.2;*/
+  top: 0px; }
+
+.whole_doc_load_gif {
+  font-size: 70px;
+  text-align: center;
+  position: absolute;
+  color: #fff;
+  width: 60%;
+  left: 15%;
+  top: 10%;
+  text-shadow: 5px 5px 12px #ff6100;
+  font-weight: bolder; }
+
+.relate {
+  position: relative; }
+
+.smaller_sub_menu {
+  z-index: 3; }
+
+.sub_menu_2submenu, .sub_menu_right {
+  z-index: 4; }
+
+.smaller_item_right_hover:after, .item_right:after {
+  z-index: 5; }
+
+.item_right_2wi_size {
+  z-index: 6; }
+
+.item_right_2wi_size_org, .bg_full {
+  z-index: 7; }
+
+.template_view, .center_window {
+  z-index: 8; }
+
+.two_sized_pane, .same_link_pane {
+  z-index: 11; }
+
+.delete_bg, .flex_bg, .white_bg, .app_switcher::after {
+  z-index: 12; }
+
+.flex_two_sized_pane {
+  z-index: 13; }
+
+.structure_frm_pane_bg, .unit_pane_bg, .tuple_pane_bg {
+  z-index: 14;
+  background-color: #fff; }
+
+.structure_frm_pane, .frm_tuple_pane, .frm_unit_pane, .pane_with_other_menu, .menu_pane_with_menu {
+  z-index: 15; }
+
+.delete_dialog {
+  z-index: 16; }
+
+.check_load, .whole_doc_load_gif {
+  z-index: 17; }
+
+/*In new_layout there are two items that have index of 18 and 19 to help the dragging*/
+.lay_9 {
+  z-index: 9; }
+
+.lay_10 {
+  z-index: 10; }
+
+.lay_11 {
+  z-index: 11; }
+
+.lay_12 {
+  z-index: 12; }
+
+.lay_13 {
+  z-index: 13; }
+
+.lay_14 {
+  z-index: 14; }
+
+.lay_15 {
+  z-index: 15; }
+
+.lay_16 {
+  z-index: 16; }
+
+.lay_17 {
+  z-index: 17; }
+
+.lay_18 {
+  z-index: 18; }
+
+.lay_19 {
+  z-index: 19; }
+
+.lay_20 {
+  z-index: 20; }
+
+.absolute_left_bottom {
+  position: absolute;
+  width: 40%;
+  bottom: 0px;
+  left: 0px; }
+
+.absolute_right_bottom {
+  position: absolute;
+  width: 40%;
+  bottom: 0px;
+  right: 0px; }
+
+.absolute_full_top {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px; }
+
+.absolute_full_bottom {
+  position: absolute;
+  bottom: 3px;
+  left: 0px;
+  width: 99%; }
+
+.absolute_subitem_full {
+  top: -50px;
+  background-color: #d4d2db;
+  width: 100%;
+  height: 50px; }
+
+/*# sourceMappingURL=Overlays.css.map */

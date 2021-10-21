@@ -1,0 +1,61 @@
+.new_data_entry {
+  display: grid;
+  grid-template-columns: 1fr;
+  -moz-column-count: 1;
+  column-fill: auto;
+  max-height: 300px;
+  overflow-y: scroll;
+  /*width: 30%;*/ }
+
+.new_data_entry::-webkit-scrollbar {
+  width: 7px; }
+
+.new_data_entry::-webkit-scrollbar-thumb {
+  background-color: #e110d4;
+  outline: 1px solid slategrey; }
+
+.new_data_entry::-moz-scrollbar-thumb {
+  background-color: #e110d4;
+  outline: 1px solid slategrey; }
+
+.new_data_tuple {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+  /*border: #0000cc 1px solid;*/ }
+  @media only screen and (max-width: 600px) {
+    .new_data_tuple {
+      grid-template-columns: 1fr;
+      -moz-column-count: 1; } }
+
+.save_button_row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  -moz-column-count: 2;
+  /*border: #ac4c4c 1px solid ;*/ }
+
+.btn_save {
+  float: right;
+  padding: 15px;
+  border-radius: 7px;
+  width: 100px;
+  border: none;
+  background-color: #f400ff; }
+
+.submit_btn {
+  float: right; }
+
+.textbox {
+  float: right; }
+  @media only screen and (max-width: 600px) {
+    .textbox {
+      max-width: 200px;
+      float: left; } }
+
+.tb_labels {
+  display: none; }
+  @media only screen and (max-width: 600px) {
+    .tb_labels {
+      display: block; } }
+
+/*# sourceMappingURL=forms.css.map */

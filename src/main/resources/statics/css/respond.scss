@@ -1,0 +1,105 @@
+$radius: 5px;
+$shadow: #000;
+$theme1: #163cc2;
+$theme2: #ee7e04;
+$them1_color: #fff;
+ 
+/*$border: #1c5dfa;*/
+$border: #fff;
+$pad: 10px;
+$dark_theme: #0f0d3d;
+
+
+$mobile_paddin_margin: 5px;
+$mobile_width: 95%;
+[class*="col"]{
+    display: grid;
+}
+.row {
+    width: 100%; }
+.row .col1 {
+    grid-template-columns: 1fr; }
+.row .col2 {
+
+    grid-template-columns: repeat(2,1fr); }
+.row .col3 {
+    grid-template-columns: repeat(3,1fr); }
+.row .col4 {
+    grid-template-columns: repeat(4,1fr ); }
+.row .col5 {
+    grid-template-columns: repeat(5,1fr); }
+.row .col6 {
+    grid-template-columns: repeat(6,1fr ); }
+.row .col7 {
+    grid-template-columns: repeat(7,1fr); }
+.row .col8 {
+    grid-template-columns: repeat(8,1fr ); }
+.row .col9 {
+    grid-template-columns: repeat(9,1fr ); }
+.row .col10 {
+    grid-template-columns: repeat(10,1fr); }
+.row .col2, .row .col3, .row .col4, .row .col5, .row .col6, .row .col7, .row .col8, .row .col9, .row .merge_3 {
+    display: grid; }
+.g_row{
+    width: 100%;
+
+}
+[class*="row_c"]{
+    display: grid;
+    grid-template-columns: auto;
+}
+[class*="col_c"]{
+    display: grid;
+    grid-auto-rows: auto;
+}
+.col_c1{
+    grid-template-columns: 1fr;
+}
+.col_c2{
+    grid-template-columns: repeat(2,1fr);
+}
+.col_c3{
+    grid-template-columns: repeat(3,1fr);
+}
+.col_c4{
+    grid-template-columns: repeat(4,1fr );
+}
+.col_c5{
+    grid-template-columns: repeat(5,1fr);
+}
+.col_c6{
+    grid-template-columns: repeat(6,1fr);
+}
+
+.row_c1{ 
+    grid-template-rows: repeat(1,1fr);
+
+}
+.row_c2{ 
+    grid-template-rows: repeat(2,1fr);
+
+}
+.row_c3{
+    grid-template-rows: repeat(3,1fr);
+}
+.row_c4{
+    grid-template-rows: repeat(4,1fr);
+}
+.row_c5{
+    grid-template-rows: repeat(5,1fr);
+}
+.theme3{
+    color: $theme2;
+}
+[class*="col"]{
+    @include sml_device{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+[class*="col_c"]{
+    @include sml_device{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,41 @@
+
+
+@mixin gradient($fromcolor,$tocolor){
+    background-image: -webkit-linear-gradient(right top,$fromcolor 0%,$tocolor 100%);
+    background-image: -moz-linear-gradient(right top,$fromcolor 0%,$tocolor 100%);
+    background-image: -o-linear-gradient(right top,$fromcolor 0%,$tocolor 100%);
+    background-image: -ms-linear-gradient(right top,$fromcolor 0%,$tocolor 100%);
+
+}
+@mixin sml_device(){
+    @media only screen and (max-width: 600px){
+        @content;
+    }
+}
+@mixin medium_device(){
+    @media only screen and (min-width: 768px) and (max-width: 800px){
+        @content;
+    }
+}
+@mixin bigger_devices(){
+    @media only screen and (min-width: 800px){
+        @content;
+    }
+}
+@mixin indexes($index){
+    z-index: $index;
+}
+
+@mixin vary_width($width){
+    width: $width;
+    margin: auto;
+}
+@mixin vary_top_pad($pad){
+    padding-top: $pad;
+}
+@mixin vary_bottom_mrgin($margin){
+    margin-bottom: $margin;
+}
+@mixin vary_height($height){
+    height: $height;
+}

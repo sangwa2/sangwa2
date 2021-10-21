@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2020, 5:37:03 PM
+    Author     : SANGWA
+*/
+.frm_dictionary {
+  width: 70%;
+  left: 15%;
+  max-height: 90%;
+  overflow: hidden;
+  min-height: 50%; }
+  .frm_dictionary .posed {
+    -webkit-user-select: text;
+    /* Safari */
+    -ms-user-select: text;
+    /* IE 10+ and Edge */
+    user-select: text;
+    /* Standard syntax */ }
+  .frm_dictionary .cont1 {
+    overflow: hidden;
+    height: 400px; }
+    .frm_dictionary .cont1 .posed {
+      top: 30px;
+      left: 0px;
+      height: 100%;
+      overflow: hidden;
+      overflow-y: scroll; }
+    .frm_dictionary .cont1 table {
+      border-collapse: collapse; }
+    .frm_dictionary .cont1 .dict {
+      border-collapse: collapse;
+      border: 1px solid #1f8727; }
+      .frm_dictionary .cont1 .dict thead {
+        background-color: #395eff;
+        color: #fff; }
+      .frm_dictionary .cont1 .dict td {
+        padding: 10px;
+        border-bottom: 1px solid #9999ff; }
+      .frm_dictionary .cont1 .dict tr:nth-child(odd) {
+        background-color: #e0e0e0; }
+    .frm_dictionary .cont1 thead {
+      background-color: #9999ff; }
+  .frm_dictionary .dict_same_link_pane {
+    height: 400px; }
+  .frm_dictionary .dict_pane_content {
+    height: 350px; }
+
+/*# sourceMappingURL=diagrams.css.map */

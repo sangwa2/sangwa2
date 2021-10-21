@@ -1,0 +1,89 @@
+
+.data_tables{
+    padding: 10px;
+
+}
+
+.unit_data_item{
+    background-color: #40b8f3;
+    width: 120px;
+}
+.unit_table{
+    width: 120px;
+    background-color: #3dabff;
+    padding: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0px 2px 2px #ff9600;
+    font-size: 12px;
+    overflow-x: hidden;
+}
+
+.structure_table{
+    grid-row-gap: 6px;
+
+}
+.unit_table{
+    padding: 0px;
+    min-height: 100px;    
+    float: left;
+    margin: 10px;
+    .unit_title{
+        width: 100%;
+        border-bottom: 1px solid #fa003c;
+        text-transform: capitalize;
+    }
+    .unit_body{
+        padding: 2px 9px;
+    }
+}
+
+.tuple_body{
+    padding: 1px;
+}
+.tuple_body{
+    label:hover{
+        padding: 1.5px;
+        background-color:#ff7200;
+        cursor: pointer;
+    }
+}
+.unit_title{
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: bolder;
+    /*background-color: #4783e0;*/
+
+}
+
+.small_textbox{
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #fff;    
+}
+.small_textbox_black{
+    @extend .small_textbox;
+    color: #000;
+}
+.black_txt{
+    color: #000;
+}
+//Search
+.usearch_box{
+    /*position: fixed;*/
+}
+
+
+
+//Forms
+.entry_control .textbox{
+    padding: 10px;
+    width: 300px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: #1e5908;
+}
+
+

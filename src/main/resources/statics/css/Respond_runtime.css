@@ -1,0 +1,225 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2020, 11:01:20 AM
+    Author     : SANGWA
+*/
+[class*="col_"], [class*="row"] {
+  display: grid; }
+
+.row {
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr); }
+
+.row_15 {
+  width: 100%;
+  grid-template-columns: repeat(15, 1fr); }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_1 {
+    grid-column: span 1; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_2 {
+    grid-column: span 2; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_3 {
+    grid-column: span 3; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_4 {
+    grid-column: span 4; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_5 {
+    grid-column: span 5; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_6 {
+    grid-column: span 6; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_7 {
+    grid-column: span 7; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_8 {
+    grid-column: span 8; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_9 {
+    grid-column: span 9; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_10 {
+    grid-column: span 10; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_11 {
+    grid-column: span 11; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_12 {
+    grid-column: span 12; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_13 {
+    grid-column: span 13; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_14 {
+    grid-column: span 14; } }
+
+@media only screen and (max-width: 600px) {
+  .col_sm_15 {
+    grid-column: span 15; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_1 {
+    grid-column: span 1; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_2 {
+    grid-column: span 2; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_3 {
+    grid-column: span 3; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_4 {
+    grid-column: span 4; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_5 {
+    grid-column: span 5; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_6 {
+    grid-column: span 6; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_7 {
+    grid-column: span 7; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_8 {
+    grid-column: span 8; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_9 {
+    grid-column: span 9; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_10 {
+    grid-column: span 10; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_11 {
+    grid-column: span 11; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_12 {
+    grid-column: span 12; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_13 {
+    grid-column: span 13; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_14 {
+    grid-column: span 14; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .col_md_15 {
+    grid-column: span 15; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_1 {
+    grid-column: span 1; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_2 {
+    grid-column: span 2; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_3 {
+    grid-column: span 3; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_4 {
+    grid-column: span 4; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_5 {
+    grid-column: span 5; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_6 {
+    grid-column: span 6; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_7 {
+    grid-column: span 7; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_8 {
+    grid-column: span 8; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_9 {
+    grid-column: span 9; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_10 {
+    grid-column: span 10; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_11 {
+    grid-column: span 11; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_12 {
+    grid-column: span 12; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_13 {
+    grid-column: span 13; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_14 {
+    grid-column: span 14; } }
+
+@media only screen and (min-width: 768px) {
+  .col_lg_15 {
+    grid-column: span 15; } }
+
+@media only screen and (max-width: 600px) {
+  .sm_just_right {
+    grid-column: 12/13; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .md_just_right {
+    grid-column: 12/13; } }
+
+@media only screen and (min-width: 768px) {
+  .md._just_right {
+    grid-column: 12/13; } }
+
+@media only screen and (max-width: 600px) {
+  .sm_just_top {
+    grid-row: 1/3; } }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .md_just_top {
+    grid-row: 1/3; } }
+
+@media only screen and (min-width: 768px) {
+  .md._just_top {
+    grid-row: 1/3; } }
+
+/*# sourceMappingURL=Respond_runtime.css.map */

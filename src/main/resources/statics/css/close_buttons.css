@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+.left_close_btn{
+    float: left;
+}
+
+.right_close_btn{
+    float: right;
+}
+.right_close_btn, .left_close_btn{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 100%;
+}
+.right_close_btn:hover{
+    cursor: pointer;
+
+}
+.right_close_btn:hover .close_bar{
+    background-color: #f90505;
+}
+.right_close_btn .close_bar{
+    content: " ";
+    width: 15px;
+    height: 4px;
+    background-color: #ffffff;
+    /*display: block;*/ 
+    /*margin: 1px auto;*/
+}
+.close_bar1{    
+    transform: rotate(45deg) translateY(3.6px) translateX(3.9px);
+}
+.close_bar2{
+    background-color: #f90505;
+    margin-top: 1px;
+    transform: rotate(-45deg) ;
+}
+
+
+
+/*Another close button that come alone wothout the usual pane*/
+.only_close{
+    display: block;
+    content: " ";
+    top: 0.5px;
+    height: 30px;
+    left: 0.5px;
+    position: absolute;
+    width: 100%; 
+    background-color: #1095e1;
+    border: 10px;
+}
+.lone_close{
+    right:70px;
+   
+}
+.cl_org{
+    height: 30px;
+    /*background-color: #f90505;*/
+    display: block;
+    float: left;
+    width: 100%;
+}
+.lone_close .close_bar{ 
+    /*this is the close cross*/
+    /*background-color: #ed9898;*/
+}
